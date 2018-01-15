@@ -20,21 +20,7 @@ function make(message, _) {
                 }, message);
     });
   newrecord[/* subscriptions */13] = (function () {
-      return /* :: */[
-              /* Sub */[
-                (function () {
-                    return setInterval((function () {
-                                  console.log("hello!");
-                                  return /* () */0;
-                                }), 1000);
-                  }),
-                (function (prim) {
-                    clearInterval(prim);
-                    return /* () */0;
-                  })
-              ],
-              /* [] */0
-            ];
+      return /* [] */0;
     });
   return newrecord;
 }

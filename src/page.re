@@ -21,9 +21,9 @@ let make = (~message, _children) => {
 
   },
   subscriptions: (_) => [
-    Sub(
+    /* Sub(
       () => Js.Global.setInterval(() => Js.log("hello!"), 1000),
       Js.Global.clearInterval
-    )
+    ) */
   ]
 };
